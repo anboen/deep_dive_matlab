@@ -13,7 +13,7 @@ classdef calcBMITest < matlab.unittest.TestCase
         end
          %% Test BMI error
         function errorThrowTest(testCase)
-            height = 0;
+            height = 2.7;
             weight = 82;
             try 
                 calcBMI(height, weight);
